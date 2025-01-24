@@ -103,7 +103,9 @@
         <p>
           Tokens are limited to 77 in CLIP Text Encoder models. 2 tokens are
           used to indicate the start and stop of the text input, leaving us with
-          75 tokens to be used in prompting.
+          75 tokens to be used in prompting. There is also a LongCLIP Text Encoder
+		  model with extended token limit to 248 and same principle applies for that
+		  one with 246 tokens left available for prompting.
         </p>
 
         <p>
@@ -253,6 +255,18 @@
             Tokenizers source:
             <a href="https://github.com/huggingface/tokenizers" rel="noopener"
               >https://github.com/huggingface/tokenizers</a
+            >
+          </li>
+          <li>
+            The original implementation of LongCLIP:
+            <a href="https://github.com/beichenzbc/Long-CLIP" rel="noopener"
+              >https://github.com/beichenzbc/Long-CLIP</a
+            >
+          </li>
+          <li>
+            Fine tuned LongCLIP model with exceptional results:
+            <a href="https://huggingface.co/zer0int/LongCLIP-GmP-ViT-L-14" rel="noopener"
+              >https://huggingface.co/zer0int/LongCLIP-GmP-ViT-L-14</a
             >
           </li>
         </ul>
